@@ -7,9 +7,6 @@ class PostsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @posts }
-      format.xlsx { send_data Post.xlsx_report,
-                    filename: 'posts.xlsx',
-                    type: "application/vnd.openxmlformates-officedocument.spreadsheetml.sheet" }
     end
   end
 
