@@ -2,9 +2,6 @@
 <div class="page-header">
   <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
 </div>
-<%= link_to posts_url(format: :xlsx), class: 'btn' do %>
-<i class="icon icon-download"> xlsx </i>
-<% end %>
 <table class="table table-striped">
   <thead>
     <tr>
