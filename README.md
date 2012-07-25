@@ -1,11 +1,11 @@
-###Minamirb + axlsx###
+# Minamirb + axlsx #
 このアプリケーションでaxlsxをハッキングします。わずか数行のコードでECMA-376に準拠したファイルを提供できるようにします。
 
 repoをフォークし、クローンしましょう
 https://github.com/randym/minamirb/fork_select
-
+```shell
     $ git clone git@github.com:[your_account_name]/minamirb
-
+```
 基本セットアプしましょう
 ```shell
     $ cd minamirb
@@ -15,7 +15,8 @@ https://github.com/randym/minamirb/fork_select
     $ rails server
 ```
 後は会場で一緒にコーディングしましょう
-どうしても先にやってみたい方のため、[超秘密カンニング資料](http://minamirb-axlsx.herokuapp.com/himitsu.html)をのぞいてみたは？
+
+_どうしても先にやってみたい方のため、[超秘密カンニング資料](http://minamirb-axlsx.herokuapp.com/himitsu.html)をのぞいてみたは？_
 
 実際動いているウェブアプリみたいならば[minamirb-axlsx](http://minamirb-axles.herokuapp.com)へアクセス
 
