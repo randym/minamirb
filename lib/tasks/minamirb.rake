@@ -10,7 +10,7 @@ namespace :minamirb do
     ENV["count"].to_i.times do
       attr_hash = { name: Faker::Name.name, title: Faker::Company.bs, content: Faker::Lorem.paragraph }
       post = Post.new(attr_hash)
-      rand(1...60).times do
+      rand(60).times do
         comment_attr = { commenter: Faker::Internet.user_name, body: Faker::Company.catch_phrase }
         post.comments.new(comment_attr)
       end
