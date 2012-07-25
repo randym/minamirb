@@ -16,7 +16,7 @@ https://github.com/randym/minamirb/fork_select
 ```
 後は会場で一緒にコーディングしましょう
 
-_どうしても先にやってみたい方のため、[超秘密カンニング資料](http://minamirb-axlsx.herokuapp.com/himitsu.html)をのぞいてみたは？_
+######## _どうしても先にやってみたい方、[超秘密カンニング資料](http://minamirb-axlsx.herokuapp.com/himitsu.html)をのぞいてみたは？_ ########
 
 実際動いているウェブアプリみたいならば[minamirb-axlsx](http://minamirb-axles.herokuapp.com)へアクセス
 
