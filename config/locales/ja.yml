@@ -1,1 +1,9 @@
-
+ja:
+  xlsx_reports:
+    posts: 投稿内容
+    post: 
+      name: 投稿者
+      title: 件名
+      content: ポスト内容
+      comments:
+        size: コメント数

@@ -1,4 +1,4 @@
-<h1>Minamirb + axlsx : 秘密のカニング資料</h1>
+<h1>Minamirb + axlsx : 秘密のカンニング資料</h1>
 <br>
 <div class="row span12">
   <p class="span6">まあ、終わったらどうやってやるんやったっけ？と迷うこともあると思って、ここにライブプログラミングで実施する内容をまとめます。別の日本語が母国語ではないので、多少（かなり？！！？）間違いの多い、変な日本語許してね <small>-randym</small></p>
@@ -113,14 +113,15 @@ ja:
     <p>そして、Postのモデルにxlsx_reportを定義しましょう</p>
     <pre>
   def self.xlsx_report
+    # require "axlsx"
     package = Post.to_xlsx
-    chart_colors =  %w(88F700, 279CAC, B2A200, FD66A3, F20062, C8BA2B, 67E6F8, DFFDB9, FFE800, B6F0F8)
+    chart_color =  %w(88F700, 279CAC, B2A200, FD66A3, F20062, C8BA2B, 67E6F8, DFFDB9, FFE800, B6F0F8)
     header_style = { :bg_color => "00", :fg_color => "FF", :alignment => { :horizontal => :center }, :bold => true }
     header_xf = package.workbook.styles.add_style header_style
     package.workbook.worksheets.first.tap do |sheet|
       sheet.row_style 0, header_xf
       sheet.add_chart(Axlsx::Pie3DChart, :title => "コメント獲得") do |chart|
-        chart.add_series :data => sheet.cols[3][(1..-1)], :labels => sheet.cols[0][(1..-1)], :colors => chart_colors
+        chart.add_series :data => sheet.cols[3][(1..-1)], :labels => sheet.cols[0][(1..-1)], :colors => chart_color
         chart.start_at 2, sheet.rows.size
         chart.end_at 3, sheet.rows.size + 20 
       end
