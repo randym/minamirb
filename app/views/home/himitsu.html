@@ -77,7 +77,7 @@ end
 
 
 
-<div><h1>4</h1><span>つまらないことを面白くする</span></div>
+<div><h1>4</h1><span>つまらないものを面白くする</span></div>
      <div style="background-color:#000000;color:#FFFFFF; margin:10px; padding:10px">
       <span style="color:#FF0000"># models/post.rb</span><br>
       <span style="color:#3D85C6">class</span> <span style="color:#E69138">Post</span> &lt; <span style="color:#E69138">ActiveRecord</span>::<span style="color:#E69138">Base</span>
@@ -111,7 +111,7 @@ ja:
                     filename: 'posts.xlsx',
                     type: "application/vnd.openxmlformates-officedocument.spreadsheetml.sheet" }
     </pre>
-    <p>そして、Postのモデルにxlsx_reportを定義しましょう</p>
+    <p>そして、Postのモデルにxlsx_reportを定義しましょう<small>&lt;ごめん、いちいち色を付けるのはめんどくさい！！&gt;</small></p>
     <pre>
   def self.xlsx_report
     # require "axlsx"
