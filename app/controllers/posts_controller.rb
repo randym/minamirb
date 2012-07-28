@@ -9,7 +9,7 @@ class PostsController < ApplicationController
       format.json { render json: @posts }
       format.xlsx { send_data Post.xlsx_report,
                     filename: 'posts.xlsx',
-                    type: "application/vnd.openxmlformates-officedocument.spreadsheetml.sheet" }
+                    type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }
     end
   end
 
