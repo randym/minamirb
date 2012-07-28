@@ -18,7 +18,7 @@ https://github.com/randym/minamirb/fork_select
 
 ######## _どうしても先にやってみたい方、[超秘密カンニング資料](http://minamirb-axlsx.herokuapp.com/himitsu.html)をのぞいてみたは？_ ########
 
-実際動いているウェブアプリみたいならば[minamirb-axlsx](http://minamirb-axles.herokuapp.com)へアクセス
+実際動いているウェブアプリみたいならば[minamirb-axlsx](http://minamirb-axlsx.herokuapp.com)へアクセス
 
 
 randym 2012
