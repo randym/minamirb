@@ -5,7 +5,7 @@ Minamirb::Application.routes.draw do
   end
 
 
-  match '/himitsu' => 'home#himitsu'
+  get '/himitsu' => 'home#himitsu'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
